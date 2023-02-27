@@ -10,4 +10,4 @@ jobs:
       - name: install
         run: pip install databricks-cli
       - name: sk
-        run: databricks clusters create --json-file C:\Users\Admin\PycharmProjects\pythonProject\scratch_2.json
+        run: databricks clusters create --json-file json.json
