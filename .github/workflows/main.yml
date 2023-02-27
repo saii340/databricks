@@ -7,5 +7,7 @@ jobs:
   firstjob:
     runs-on: windows-latest
     steps:
+      - name: install
+        run: pip install databricks-cli
       - name: sk
         run: databricks fs ls
