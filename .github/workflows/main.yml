@@ -10,4 +10,4 @@ jobs:
       - name: install
         run: pip install databricks-cli
       - name: sk
-        run: databricks fs ls
+        run: databricks clusters list
