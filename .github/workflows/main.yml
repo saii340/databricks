@@ -9,5 +9,7 @@ jobs:
     steps:
       - name: install
         run: pip install databricks-cli
+      - name: Checks out the repo
+        uses: actions/checkout@v2
       - name: sk
         run: databricks clusters create --json-file json.json
