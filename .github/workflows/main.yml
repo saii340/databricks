@@ -1,5 +1,8 @@
 name: sai
 on: workflow_dispatch
+env:
+  DATABRICKS_HOST: https://adb-1674739008109844.4.azuredatabricks.net/
+  DATABRICKS_TOKEN: dapiefc7ea90e4faebbad3bdd9bb71c111fd-3
 jobs:
   firstjob:
     runs-on: windows-latest
